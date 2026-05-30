@@ -1,5 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
-import { site } from "../lib/site";
+import { siteImages } from "../lib/site";
 
 export function BrandLogo() {
   return (
@@ -8,9 +9,14 @@ export function BrandLogo() {
       className="focus-ring inline-flex shrink-0 items-center rounded-md"
       aria-label="Mess N Care home"
     >
-      <span className="text-2xl font-black tracking-tight text-brand-green">
-        Mess <span className="text-brand-orange">N</span> Care
-      </span>
+      <Image
+        src={siteImages.logoWordmark}
+        alt="Mess N Care - Your Home Our Care"
+        width={360}
+        height={92}
+        className="h-11 w-auto max-w-[210px] object-contain sm:h-12 sm:max-w-[235px] lg:max-w-[255px]"
+        priority
+      />
     </Link>
   );
 }
