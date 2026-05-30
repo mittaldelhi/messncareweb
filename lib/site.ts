@@ -22,11 +22,11 @@ export const siteImages = {
   logo: "/images/logo.png",
   logoWordmark: "/images/logo-wordmark.png",
   logoIcon: "/images/logo-icon.png",
-  heroStaff: "/images/hero-staff.png",
+  heroStaff: "/images/hero-staff.jfif",
   appScreens: [
-    "/images/app-screen1.png",
-    "/images/app-screen2.1.png",
-    "/images/app-screen3.png"
+    "/images/app-screen1.jpg",
+    "/images/app-screen2.1.jpg",
+    "/images/app-screen3.jpg"
   ],
   googlePlayBadge: "/images/google-play-badge.svg",
   appStoreBadge: "/images/app-store-badge.svg"
