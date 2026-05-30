@@ -12,9 +12,9 @@ export function BrandLogo() {
       <Image
         src={siteImages.logoWordmark}
         alt="Mess N Care - Your Home Our Care"
-        width={360}
-        height={92}
-        className="h-11 w-auto max-w-[210px] object-contain sm:h-12 sm:max-w-[235px] lg:max-w-[255px]"
+        width={400}
+        height={102}
+        className="h-16 w-auto max-w-[280px] object-contain sm:h-20 sm:max-w-[320px] lg:h-24 lg:max-w-[380px]"
         priority
       />
     </Link>
