@@ -1,15 +1,15 @@
-# Make N Care Website Publishing Checklist
+# Mess N Care Website Publishing Checklist
 
-Replace or confirm these items before publishing `makencare.com`.
+Replace or confirm these items before publishing `messncare.com`.
 
 For easiest updates, edit `lib/site.ts` first. It controls app links, contact details, image paths, service areas, services, and service icons.
 
 ## Brand Images
 
-- `public/images/logo.png` - final Make N Care full logo.
+- `public/images/logo.png` - final Mess N Care full logo.
 - `public/images/logo-wordmark.png` - cropped website header/footer logo generated from the full logo.
 - `public/images/logo-icon.png` - final icon mark for header and metadata.
-- `public/images/hero-staff.png` - realistic Make N Care staff photo in green branded T-shirt.
+- `public/images/hero-staff.png` - realistic Mess N Care staff photo in green branded T-shirt.
 - `public/images/app-screen1.png` - real app screen for service selection.
 - `public/images/app-screen2.1.png` - real app screen for slot/address selection.
 - `public/images/app-screen3.png` - real app screen for tracking/payment/review.
@@ -25,7 +25,7 @@ For easiest updates, edit `lib/site.ts` first. It controls app links, contact de
 
 ## Support And Business Contact Details
 
-- Support email in `lib/site.ts` - currently `support@makencare.com`.
+- Support email in `lib/site.ts` - currently `support@messncare.com`.
 - Phone / WhatsApp number in `lib/site.ts` - currently `+91 8824106060`.
 - Support hours in `lib/site.ts`.
 - Service areas in `lib/site.ts`.
@@ -57,5 +57,5 @@ For easiest updates, edit `lib/site.ts` first. It controls app links, contact de
 - Confirm app booking language says bookings happen only inside the mobile app.
 - Confirm no fake customer numbers, fake press logos, or fake reviews are present.
 - Run `npm run build` before deployment.
-- Upload only the generated `out` folder contents to `/home/mittalai/makencare.com`.
+- Upload only the generated `out` folder contents to `/home/mittalai/messncare.com`.
 - Do not use Node hosting, `server.js`, SSR, API routes, server actions, or middleware for production.

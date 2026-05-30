@@ -1,4 +1,4 @@
-# Make N Care Website Update Guide
+# Mess N Care Website Update Guide
 
 Most website information is now controlled from one file:
 
@@ -101,7 +101,7 @@ This project is a static export website. Do not use Setup Node.js App,
 
 After `npm run build`, upload the contents of the `out` folder to:
 
-`/home/mittalai/makencare.com`
+`/home/mittalai/messncare.com`
 
 The live folder should contain `index.html`, `.htaccess`, `_next`, `images`,
 `robots.txt`, `sitemap.xml`, and the exported static page files.

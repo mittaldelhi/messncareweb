@@ -7,7 +7,7 @@ export function DownloadBadges({ compact = false }: { compact?: boolean }) {
     <div className="flex flex-wrap items-center gap-3">
       <Link
         href={site.googlePlayUrl}
-        aria-label="Download Make N Care on Google Play"
+        aria-label="Download Mess N Care on Google Play"
         className="focus-ring rounded-md"
       >
         <Image

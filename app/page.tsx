@@ -35,7 +35,7 @@ export default function Home() {
               Reliable home services in minutes.
             </h1>
             <p className="mt-6 max-w-[22rem] text-base leading-7 text-brand-ink/72 sm:max-w-2xl sm:text-lg sm:leading-8">
-              Make N Care helps you book cleaning, repair, and home help
+              Mess N Care helps you book cleaning, repair, and home help
               services through our easy-to-use mobile app.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -79,7 +79,7 @@ export default function Home() {
             <div className="relative mx-auto flex h-[390px] w-full max-w-[430px] items-end justify-center overflow-hidden rounded-[28px] border border-white/70 bg-white/35 shadow-soft sm:h-[480px] lg:h-[520px] lg:max-w-[500px] lg:rounded-[36px]">
               <Image
                 src={siteImages.heroStaff}
-                alt="Make N Care staff member in branded green T-shirt"
+                alt="Mess N Care staff member in branded green T-shirt"
                 width={941}
                 height={1672}
                 priority
@@ -113,7 +113,7 @@ export default function Home() {
         <div className="container-pad">
           <SectionHeading
             title="No more stress around home services."
-            subtitle="From cleaning to repair, Make N Care helps you find reliable service professionals through one simple app."
+            subtitle="From cleaning to repair, Mess N Care helps you find reliable service professionals through one simple app."
           />
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {whyCards.map((card) => (
@@ -134,7 +134,7 @@ export default function Home() {
           <SectionHeading
             center
             title="Book trusted home services."
-            subtitle="Choose from cleaning, repair, and care services available through the Make N Care app."
+            subtitle="Choose from cleaning, repair, and care services available through the Mess N Care app."
           />
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {services.slice(0, 20).map(({ name, icon }) => (
@@ -165,7 +165,7 @@ export default function Home() {
             light
             center
             title="Simple steps to a cleaner, easier home."
-            subtitle="Book and manage services from the Make N Care app in just a few steps."
+            subtitle="Book and manage services from the Mess N Care app in just a few steps."
           />
           <div className="mt-12 grid gap-6 lg:grid-cols-3">
             {[
@@ -209,7 +209,7 @@ export default function Home() {
         <div className="container-pad grid items-center gap-10 lg:grid-cols-[1fr_0.8fr]">
           <div>
             <SectionHeading
-              title="Get Make N Care on your phone."
+              title="Get Mess N Care on your phone."
               subtitle="Download the app to book services, manage bookings, track updates, and contact support."
             />
             <div className="mt-7">
@@ -229,7 +229,7 @@ export default function Home() {
           <div className="relative mx-auto aspect-[9/16] w-full max-w-[300px] overflow-hidden rounded-[32px] border-8 border-white bg-white shadow-soft">
             <Image
               src={siteImages.appScreens[0]}
-              alt="Make N Care app screenshot placeholder"
+              alt="Mess N Care app screenshot placeholder"
               fill
               sizes="(min-width: 1024px) 300px, 80vw"
               className="object-contain"
@@ -265,7 +265,7 @@ export default function Home() {
         <div className="container-pad grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <SectionHeading
             title="Ready for easier home care?"
-            subtitle="Explore Make N Care services, download the app, or contact support for help."
+            subtitle="Explore Mess N Care services, download the app, or contact support for help."
           />
           <div className="grid gap-3 sm:grid-cols-2">
             {[

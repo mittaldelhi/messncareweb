@@ -4,7 +4,7 @@ import { pageMetadata } from "../../lib/seo";
 export const metadata = pageMetadata({
   title: "Delete Account",
   description:
-    "Request deletion of your Make N Care account and associated personal data.",
+    "Request deletion of your Mess N Care account and associated personal data.",
   path: "/delete-account"
 });
 
@@ -13,8 +13,8 @@ export default function DeleteAccountPage() {
     <>
       <PageHero
         eyebrow="Delete Account"
-        title="Request deletion of your Make N Care account."
-        subtitle="Users can request deletion of their Make N Care account and associated personal data."
+        title="Request deletion of your Mess N Care account."
+        subtitle="Users can request deletion of their Mess N Care account and associated personal data."
       />
       <section className="section-pad bg-brand-paper">
         <div className="container-pad grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
@@ -53,12 +53,12 @@ export default function DeleteAccountPage() {
               How to request deletion
             </h2>
             <p className="mt-4 leading-7 text-brand-ink/72">
-              Email Make N Care support with your full name, registered phone
+              Email Mess N Care support with your full name, registered phone
               number, registered email if available, and the request subject
               "Delete My Account".
             </p>
             <a
-              href="mailto:support@makencare.com?subject=Delete%20My%20Account"
+              href="mailto:support@messncare.com?subject=Delete%20My%20Account"
               className="focus-ring mt-6 inline-flex min-h-12 items-center justify-center rounded-md bg-brand-green px-6 text-sm font-bold text-white"
             >
               Email deletion request

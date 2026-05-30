@@ -5,7 +5,7 @@ import { site } from "../../lib/site";
 export const metadata = pageMetadata({
   title: "Account Deletion",
   description:
-    "Request deletion of your Make N Care account and associated personal data for Play Store and app compliance.",
+    "Request deletion of your Mess N Care account and associated personal data for Play Store and app compliance.",
   path: "/account-deletion"
 });
 
@@ -14,8 +14,8 @@ export default function AccountDeletionPage() {
     <>
       <PageHero
         eyebrow="Account Deletion"
-        title="Request deletion of your Make N Care account."
-        subtitle="Users can request deletion of their Make N Care account and associated personal data."
+        title="Request deletion of your Mess N Care account."
+        subtitle="Users can request deletion of their Mess N Care account and associated personal data."
       />
       <section className="section-pad bg-brand-paper">
         <div className="container-pad grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">

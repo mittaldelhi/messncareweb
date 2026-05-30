@@ -1,22 +1,16 @@
-import Image from "next/image";
 import Link from "next/link";
-import { siteImages } from "../lib/site";
+import { site } from "../lib/site";
 
 export function BrandLogo() {
   return (
     <Link
       href="/"
       className="focus-ring inline-flex shrink-0 items-center rounded-md"
-      aria-label="Make N Care home"
+      aria-label="Mess N Care home"
     >
-      <Image
-        src={siteImages.logoWordmark}
-        alt="Make N Care - Your Home Our Care"
-        width={360}
-        height={92}
-        className="h-11 w-auto max-w-[210px] object-contain sm:h-12 sm:max-w-[235px] lg:max-w-[255px]"
-        priority
-      />
+      <span className="text-2xl font-black tracking-tight text-brand-green">
+        Mess <span className="text-brand-orange">N</span> Care
+      </span>
     </Link>
   );
 }

@@ -7,7 +7,7 @@ import { contactCards, contactReasons } from "../../lib/site";
 export const metadata = pageMetadata({
   title: "Contact Us",
   description:
-    "Contact Make N Care for customer support, professional onboarding, app issues, account deletion help, or business inquiries.",
+    "Contact Mess N Care for customer support, professional onboarding, app issues, account deletion help, or business inquiries.",
   path: "/contact"
 });
 
@@ -16,7 +16,7 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact"
-        title="Need help with Make N Care?"
+        title="Need help with Mess N Care?"
         subtitle="Send a support request, professional joining inquiry, business message, or account deletion help request."
       />
       <section className="section-pad bg-brand-paper">
@@ -55,7 +55,7 @@ export default function ContactPage() {
                 </div>
               );
             })}
-            <ButtonLink href="mailto:support@makencare.com" className="w-full">
+            <ButtonLink href="mailto:support@messncare.com" className="w-full">
               Email Contact Support
             </ButtonLink>
           </div>

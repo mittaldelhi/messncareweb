@@ -6,10 +6,10 @@ import type { SiteIconName } from "../components/SiteIcon";
  * support/legal placeholders here before publishing.
  */
 export const site = {
-  name: "Make N Care",
-  domain: "makencare.com",
-  url: "https://makencare.com",
-  supportEmail: "support@makencare.com",
+  name: "Mess N Care",
+  domain: "messncare.com",
+  url: "https://messncare.com",
+  supportEmail: "support@messncare.com",
   phone: "+91 8824106060",
   whatsapp: "+91 8824106060",
   supportHours: "Monday to Saturday, 9:00 AM - 7:00 PM",
@@ -109,9 +109,9 @@ export const serviceCategories = [
 
 export const faqItems = [
   {
-    question: "What is Make N Care?",
+    question: "What is Mess N Care?",
     answer:
-      "Make N Care is a home-services platform for cleaning, repair, and home-help services. Bookings are currently available only through the Make N Care mobile app."
+      "Mess N Care is a home-services platform for cleaning, repair, and home-help services. Bookings are currently available only through the Mess N Care mobile app."
   },
   {
     question: "Can I book services from the website?",
@@ -119,29 +119,29 @@ export const faqItems = [
       "No. The website is for brand information, service discovery, app download, support, and legal information. All service booking happens inside the mobile app."
   },
   {
-    question: "How do I download the Make N Care app?",
+    question: "How do I download the Mess N Care app?",
     answer:
       "Use the Google Play badge on this website to open the app listing when live. The iOS app is marked as coming soon until it is available."
   },
   {
     question: "Which services are available?",
     answer:
-      "Make N Care covers cleaning, repair, maintenance, and home-help services. Availability can vary by city and should be checked inside the mobile app."
+      "Mess N Care covers cleaning, repair, maintenance, and home-help services. Availability can vary by city and should be checked inside the mobile app."
   },
   {
-    question: "Are Make N Care professionals verified?",
+    question: "Are Mess N Care professionals verified?",
     answer:
-      "Make N Care is built around verified service professionals and onboarding checks before professionals receive service requests."
+      "Mess N Care is built around verified service professionals and onboarding checks before professionals receive service requests."
   },
   {
-    question: "Is Make N Care available in my city?",
+    question: "Is Mess N Care available in my city?",
     answer:
-      "Make N Care is launching in selected service areas including Bhiwadi, Delhi NCR, Gurgaon, Jaipur, and Mumbai, with more cities planned."
+      "Mess N Care is launching in selected service areas including Bhiwadi, Delhi NCR, Gurgaon, Jaipur, and Mumbai, with more cities planned."
   },
   {
     question: "Can I book recurring services?",
     answer:
-      "Recurring service options, where available, should be managed inside the Make N Care mobile app."
+      "Recurring service options, where available, should be managed inside the Mess N Care mobile app."
   },
   {
     question: "How do payments work?",
@@ -161,7 +161,7 @@ export const faqItems = [
   {
     question: "How do I delete my account?",
     answer:
-      "Visit the Delete Account page to submit a deletion request for your Make N Care account and associated personal data."
+      "Visit the Delete Account page to submit a deletion request for your Mess N Care account and associated personal data."
   },
   {
     question: "Is the iOS app available?",

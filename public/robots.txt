@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://makencare.com/sitemap.xml
+Sitemap: https://messncare.com/sitemap.xml

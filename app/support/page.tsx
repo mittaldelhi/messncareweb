@@ -7,7 +7,7 @@ import { site, supportTopics } from "../../lib/site";
 export const metadata = pageMetadata({
   title: "Support / Help",
   description:
-    "Get Make N Care support for app download help, bookings, payments, cancellations, professional support, and account deletion help.",
+    "Get Mess N Care support for app download help, bookings, payments, cancellations, professional support, and account deletion help.",
   path: "/support"
 });
 
@@ -17,7 +17,7 @@ export default function SupportPage() {
       <PageHero
         eyebrow="Support"
         title="How can we help?"
-        subtitle="Find help topics for the Make N Care mobile app, service bookings, payments, cancellations, professional support, and account deletion."
+        subtitle="Find help topics for the Mess N Care mobile app, service bookings, payments, cancellations, professional support, and account deletion."
       />
       <section className="section-pad bg-brand-paper">
         <div className="container-pad">

@@ -5,7 +5,7 @@ import { pageMetadata } from "../../lib/seo";
 export const metadata = pageMetadata({
   title: "About Us",
   description:
-    "Learn about Make N Care, our mission, vision, values, and brand story as a trusted home-services platform.",
+    "Learn about Mess N Care, our mission, vision, values, and brand story as a trusted home-services platform.",
   path: "/about"
 });
 
@@ -15,19 +15,19 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About Make N Care"
+        eyebrow="About Mess N Care"
         title="Building a trusted home-services brand for Indian homes."
-        subtitle="Make N Care connects local service professionals with households through a simple mobile-first booking experience."
+        subtitle="Mess N Care connects local service professionals with households through a simple mobile-first booking experience."
       />
       <section className="section-pad bg-white">
         <div className="container-pad grid gap-8 lg:grid-cols-2">
           <InfoCard title="Who we are">
-            Make N Care is a home-services company focused on cleaning, repair,
+            Mess N Care is a home-services company focused on cleaning, repair,
             maintenance, and home-help services. Our website helps customers
             learn about the brand and download the app.
           </InfoCard>
           <InfoCard title="Brand story">
-            We are building Make N Care for families who want dependable local
+            We are building Mess N Care for families who want dependable local
             home care without confusing calls, unclear pricing, or scattered
             follow-ups. The app is the center of every booking journey.
           </InfoCard>

@@ -8,7 +8,7 @@ import { findService, serviceCategories } from "../../lib/site";
 export const metadata = pageMetadata({
   title: "Services",
   description:
-    "Explore Make N Care cleaning, repair, maintenance, and home-help services available through the mobile app.",
+    "Explore Mess N Care cleaning, repair, maintenance, and home-help services available through the mobile app.",
   path: "/services"
 });
 
@@ -18,7 +18,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Services"
         title="Home services you can discover in one simple app."
-        subtitle="The website explains available service categories. Download the Make N Care mobile app to check availability, pricing, slots, and booking options."
+        subtitle="The website explains available service categories. Download the Mess N Care mobile app to check availability, pricing, slots, and booking options."
       />
       <section className="section-pad bg-brand-paper">
         <div className="container-pad space-y-8">

@@ -7,7 +7,7 @@ type PageSeo = {
   path: string;
 };
 
-export const productionOrigin = "https://makencare.com";
+export const productionOrigin = "https://messncare.com";
 
 export function canonicalUrl(path = "/") {
   const normalizedPath = path === "/" ? "" : `/${path.replace(/^\/+|\/+$/g, "")}`;

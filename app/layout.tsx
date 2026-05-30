@@ -9,29 +9,29 @@ import { siteImages } from "../lib/site";
 const heroImageUrl = canonicalUrl(siteImages.heroStaff);
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://makencare.com"),
+  metadataBase: new URL("https://messncare.com"),
   title: {
-    default: "Make N Care | Trusted Home Services at Your Doorstep",
-    template: "%s | Make N Care"
+    default: "Mess N Care | Trusted Home Services at Your Doorstep",
+    template: "%s | Mess N Care"
   },
   description:
-    "Make N Care helps you book trusted cleaning, repair, and home care services through our mobile app. Explore services, download the app, and connect with verified professionals.",
-  applicationName: "Make N Care",
+    "Mess N Care helps you book trusted cleaning, repair, and home care services through our mobile app. Explore services, download the app, and connect with verified professionals.",
+  applicationName: "Mess N Care",
   alternates: {
     canonical: canonicalUrl("/")
   },
   openGraph: {
     type: "website",
     url: canonicalUrl("/"),
-    siteName: "Make N Care",
-    title: "Make N Care | Trusted Home Services at Your Doorstep",
+    siteName: "Mess N Care",
+    title: "Mess N Care | Trusted Home Services at Your Doorstep",
     description:
-      "Book trusted cleaning, repair, and home care services through the Make N Care mobile app.",
+      "Book trusted cleaning, repair, and home care services through the Mess N Care mobile app.",
     images: [{ url: heroImageUrl, width: 1200, height: 630 }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Make N Care | Trusted Home Services at Your Doorstep",
+    title: "Mess N Care | Trusted Home Services at Your Doorstep",
     description:
       "Explore services, download the app, and connect with verified home-service professionals.",
     images: [heroImageUrl]

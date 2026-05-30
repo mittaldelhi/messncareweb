@@ -17,7 +17,7 @@ export function Footer() {
         <div>
           <BrandLogo />
           <p className="mt-5 max-w-sm text-sm leading-6 text-brand-ink/70">
-            Make N Care helps households discover trusted cleaning, repair, and
+            Mess N Care helps households discover trusted cleaning, repair, and
             home-help services through a simple mobile app.
           </p>
           <p className="mt-4 text-sm font-semibold text-brand-green">
@@ -54,7 +54,7 @@ export function Footer() {
       </div>
       <div className="border-t border-brand-green/10 py-5">
         <div className="container-pad flex flex-col gap-2 text-sm text-brand-ink/60 sm:flex-row sm:items-center sm:justify-between">
-          <p>Copyright © {new Date().getFullYear()} Make N Care. All rights reserved.</p>
+          <p>Copyright © {new Date().getFullYear()} Mess N Care. All rights reserved.</p>
           <p>{site.domain}</p>
         </div>
       </div>
